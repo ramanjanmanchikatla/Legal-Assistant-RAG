@@ -1,0 +1,14 @@
+# Ignore Python cache and venv
+__pycache__/
+*.py[cod]
+*.pyo
+*.log
+venv/
+.env
+
+# Ignore local vector DB
+chroma_db/
+
+# Ignore Streamlit temp files
+.streamlit/
+langchain/
