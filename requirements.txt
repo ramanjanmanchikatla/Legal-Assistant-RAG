@@ -13,3 +13,4 @@ streamlit
 langchain-pinecone
 pinecone-client
 sentence-transformers
+pypdf
