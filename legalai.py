@@ -8,7 +8,6 @@ from langchain_openai import ChatOpenAI
 from langchain_google_genai import ChatGoogleGenerativeAI
 from langchain.chains import RetrievalQA
 from dotenv import load_dotenv
-# from pinecone import ServerlessSpec
 from pinecone import Pinecone
 from langchain_pinecone import PineconeVectorStore
 load_dotenv()
