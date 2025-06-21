@@ -12,3 +12,4 @@ huggingface-hub
 streamlit
 langchain-pinecone
 pinecone-client
+sentence-transformers
