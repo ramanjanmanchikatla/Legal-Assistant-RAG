@@ -11,7 +11,7 @@ from dotenv import load_dotenv
 from pinecone import Pinecone
 from langchain_pinecone import PineconeVectorStore
 load_dotenv()
-index_name = "legalai"  # change if desired
+index_name = "legalai"  
 pc = Pinecone(api_key=os.getenv("PINECONE_API_KEY"))
 index = pc.Index(index_name)
 st.set_page_config(page_title="🧑‍⚖️ Legal Assistant - Multi PDF Comparator", layout="wide")
