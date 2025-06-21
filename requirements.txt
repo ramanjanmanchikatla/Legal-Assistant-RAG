@@ -10,3 +10,5 @@ langchain-huggingface
 transformers
 huggingface-hub
 streamlit
+langchain-pinecone
+pinecone-client
