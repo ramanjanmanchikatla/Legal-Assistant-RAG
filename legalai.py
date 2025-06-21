@@ -15,7 +15,7 @@ index_name = "legalai"
 pc = Pinecone(api_key=os.getenv("PINECONE_API_KEY"))
 index = pc.Index(index_name)
 st.set_page_config(page_title="🧑‍⚖️ Legal Assistant - Multi PDF Comparator", layout="wide")
-st.title("🧑‍⚖️ Legal Assistant RAG - Compare Legal Documents")
+st.title("🧑‍⚖️ Legal Assistant RAG - CourtMate")
 
 uploaded_files = st.file_uploader("Upload one or more Legal Case PDFs", type="pdf", accept_multiple_files=True)
 
