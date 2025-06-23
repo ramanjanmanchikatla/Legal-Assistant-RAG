@@ -11,6 +11,6 @@ transformers
 huggingface-hub
 streamlit
 langchain-pinecone
-pinecone-client
+pinecone
 sentence-transformers
 pypdf
